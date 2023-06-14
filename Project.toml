@@ -1,0 +1,13 @@
+name = "GemmCUDA"
+uuid = "5d8148dd-b345-4d10-a319-223c162a2a55"
+authors = ["MilkshakeForReal <yicheng.wu@ucalgary.ca> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
